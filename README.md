@@ -1,4 +1,6 @@
-# Opencolor Palettes
+# Open Color Palettes
+
+Various color palettes found on the web in Open Color Format
 
 ## demo.oco
 
