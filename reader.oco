@@ -1,8 +1,11 @@
+oct/identityColorTop: =Brand Colors.Funky Orange
+oct/identityColorSide:  =Blues.Eighthundred
+oct/identityColorBottom: =Brand Colors.Deep Blue
 Brand Colors:
   oct/:
-    view: stretched
-    showColorInfo: true
-    showColorValue: false
+    view: fan
+    showInfo: true
+    showValue: false
   Deep Blue: #1A237E
   Funky Orange: #FF7043
 Blues:
@@ -18,7 +21,7 @@ Greys:
 Day Theme:
   oct/:
     view: list
-    swatchShape: RECT
+    swatchShape: STRETCHED
     backgroundColor: =Background
   Background: =Greys.Subtle Grey
   Header Background: =Greys.Off-white
@@ -27,7 +30,7 @@ Day Theme:
 Night Theme:
   oct/:
     view: list
-    swatchShape: RECT
+    swatchShape: STRETCHED
     backgroundColor: =Background
   Background: =Blues.Eighthundred
   Header Background: =Brand Colors.Deep Blue

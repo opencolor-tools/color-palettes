@@ -1,0 +1,93 @@
+// This file contains all possible views
+// Each one has all its available options configured to their default
+// (That means if you don’t have to write out all those options if you want to use them as they are)
+
+List:
+  oct/:
+    view: List
+    showValue: true
+    swatchShape: CIRCLE //[CIRCLE/SQUARE/STRECHED]
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Minimal:
+  oct/:
+    view: Minimal
+    swatchShape: CIRCLE // [CIRCLE/SQUARE]
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Stack:
+  oct/:
+    view: Stack
+    showValue: true
+    showInfo: true
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Cards:
+  oct/:
+    view: Cards
+    showInfo: true
+    showValue: true
+    maxColorsPerRow: 3
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Bars:
+  oct/:
+    view: Bars
+    showInfo: true
+    showValue: true
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Fan:
+  oct/:
+    view: Fan
+    showInfo: false
+    showValue: false
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Block:
+  oct/:
+    view: Block
+    showInfo: false
+    showValue: false
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Grid:
+  oct/:
+    view: Grid
+    showInfo: false
+    maxColorsPerRow: 3
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Squares:
+  oct/:
+    view: Squares
+    maxColorsPerRow: 10
+    backgroundColor: #FFFFFF
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
