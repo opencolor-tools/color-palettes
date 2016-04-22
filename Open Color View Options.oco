@@ -6,7 +6,7 @@ List:
   oct/:
     view: List
     showValue: true
-    swatchShape: CIRCLE //[CIRCLE/SQUARE/STRECHED]
+    swatchShape: CIRCLE //[CIRCLE/SQUARE/STRETCHED]
     backgroundColor: #FFFFFF
   mightBeRed: #EF665F
   subtleYellow: #D8E096
