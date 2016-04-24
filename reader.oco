@@ -1,5 +1,5 @@
 oct/identityColorTop: =Brand Colors.Funky Orange
-oct/identityColorSide:  =Blues.Eighthundred
+oct/identityColorSide:  =Blues.800
 oct/identityColorBottom: =Brand Colors.Deep Blue
 Brand Colors:
   oct/:
@@ -10,8 +10,8 @@ Brand Colors:
   Funky Orange: #FF7043
 Blues:
   oct/view: minimal
-  Eighthundred: #1565C0
-  Fifty: #E3F2FD
+  800: #1565C0
+  50: #E3F2FD
 Greys:
   oct/view: minimal
   Off-white: #FDFDFD
@@ -32,7 +32,7 @@ Night Theme:
     view: list
     swatchShape: STRETCHED
     backgroundColor: =Background
-  Background: =Blues.Eighthundred
+  Background: =Blues.800
   Header Background: =Brand Colors.Deep Blue
-  Primary Text: =Blues.Fifty
+  Primary Text: =Blues.50
   Primary Text Pressed: =Brand Colors.Funky Orange
