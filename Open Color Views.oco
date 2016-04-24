@@ -1,0 +1,57 @@
+// Use the 'oct/view' entry to configure the
+// appearance of a color palette in the picker
+
+List:
+  oct/view: List
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Minimal:
+  oct/view: Minimal
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Stack:
+  oct/view: Stack
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Cards:
+  oct/view: Cards
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Bars:
+  oct/view: Bars
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Fan:
+  oct/view: Fan
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Block:
+  oct/view: Block
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Grid:
+  oct/view: Grid
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Squares:
+  oct/view: Squares
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6

@@ -1,92 +1,156 @@
-// This file contains all possible views
-// Each one has all its available options configured to their default
-// (That means if you don’t have to write out all those options if you want to use them as they are)
+// Customize the appearance of palette with
+// additional options. Every palette may
+// have its own background color
 
-List:
+List (default):
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+List (SQUARE):
+  oct/swatchShape: SQUARE
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+List (STRETCHED):
   oct/:
     view: List
-    showValue: true
-    swatchShape: CIRCLE //[CIRCLE/SQUARE/STRETCHED]
-    backgroundColor: #FFFFFF
+    swatchShape: STRETCHED
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+List (STRETCHED configured):
+  oct/:
+    view: List
+    swatchShape: STRETCHED
+    showValue: false
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Minimal:
+  oct/view: Minimal
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Minimal (SQUARE configured):
   oct/:
     view: Minimal
-    swatchShape: CIRCLE // [CIRCLE/SQUARE]
-    backgroundColor: #FFFFFF
+    swatchShape: SQUARE
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Stack:
+  oct/view: Stack
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Stack (configured):
   oct/:
     view: Stack
-    showValue: true
+    showValue: false
     showInfo: true
-    backgroundColor: #FFFFFF
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Cards:
+  oct/view: Cards
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Cards (configured):
   oct/:
     view: Cards
-    showInfo: true
-    showValue: true
-    maxColorsPerRow: 3
-    backgroundColor: #FFFFFF
+    showValue: false
+    colorsPerRow: 2
+    backgroundColor: #333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Bars:
+  oct/view: Bars
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Bars (configured):
   oct/:
     view: Bars
-    showInfo: true
-    showValue: true
-    backgroundColor: #FFFFFF
+    showInfo: false
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Fan:
-  oct/:
-    view: Fan
-    showInfo: false
-    showValue: false
-    backgroundColor: #FFFFFF
+  oct/view: Fan
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
+Fan (configured):
+  oct/:
+    view: Fan
+    showInfo: true
+    showValue: true
+    backgroundColor: #333333
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
 Block:
+  oct/view: Block
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Block (configured):
   oct/:
     view: Block
-    showInfo: false
-    showValue: false
-    backgroundColor: #FFFFFF
+    showInfo: true
+    showValue: true
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Grid:
+  oct/view: Grid
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Grid (configured):
   oct/:
     view: Grid
-    showInfo: false
-    maxColorsPerRow: 3
-    backgroundColor: #FFFFFF
+    showInfo: true
+    colorsPerRow: 2
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
   reducedBlue: #1797A6
 Squares:
+  oct/view: Squares
+  mightBeRed: #EF665F
+  subtleYellow: #D8E096
+  brokenBlue: #21BECF
+  reducedBlue: #1797A6
+Squares (configured):
   oct/:
     view: Squares
-    maxColorsPerRow: 10
-    backgroundColor: #FFFFFF
+    colorsPerRow: 4
+    backgroundColor: #333333
   mightBeRed: #EF665F
   subtleYellow: #D8E096
   brokenBlue: #21BECF
